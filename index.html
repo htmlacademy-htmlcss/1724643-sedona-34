@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <link rel="stylesheet" href="styles/styles.css">
   </head>
   <body>
     <header class="page-header">
@@ -37,27 +38,29 @@
             </a>
         </li>
         <li class="navigation-item">
-          <a class="navigation-link" href="#">ХОЧУ СЮДА!</a>
+          <a class="navigation-link-here" href="#">Хочу сюда!</a>
         </li>
       </ul>
       </nav>
     </header>
     <main class="main-index">
+      <div class="main-photo">
       <h1 class="visually-hidden">Гостиница Седона</h1>
       <img class="welcome" src="images/welcome.svg" width="458" height="352" alt="Welcome to the gorgeous Sedona 'because the grand canyon sucks">
-      <img class="welcome-picture" src="images/index-background.jpg"  width="1200" height="485" alt="Каньон в Седоне">
+    </div>
       <section class="about">
         <h2 class="visiually-hidden">Преимущества</h2>
-        <h2 class="about-slogan">Седона — небольшой городок в Аризоне,
-          заслуживающий большего!</h2>
+        <h2 class="about-slogan">Седона — небольшой городок в Аризоне, заслуживающий большего</h2>
         <p>Рассмотрим 5 причин, по которым Седона круче, чем Гранд-Каньон!</p>
-      </section>
+       </section>
       <section class="adavantages-list">
         <ul class="advantages-list">
           <li class="advantages-item">
-            <h3 class="advantages-title">Настоящий городок</h3>
-            <span class="advantages-number">— №1 —</span>
-            <p class="advantages-description">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
+            <div class="advantages-city">
+             <h3 class="advantages-title">Настоящий городок</h3>
+             <span class="advantages-number">— №1 —</span>
+             <p class="advantages-description">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
+            </div>
           </li>
           <li class="advantages-photo">
             <img src="images/photo-1.jpg" width="800" height="384" alt="Дома Седоны">
@@ -65,20 +68,26 @@
           <li class="advantages-plus">
             <ul class="advantages-short">
              <li class="advantages-item">
+              <div class="advantages-accommodation">
               <h4 class="advantages-title">Жильё</h4>
-              <p class="advantages-description">Рекомендуем пожить в настоящем мотеле,
+              <p class="advantages-description">Рекомендуем пожить в настоящем мотеле,
                 всё как в кино!</p>
+              </div>
              </li>
+            <div class="advantages-food">
              <li class="advantages-item">
               <h4 class="advantages-title">Еда</h4>
               <p class="advantages-description">Всегда заказывайте
                 топовый фирменный бургер, вы не разочаруетесь!</p>
              </li>
+            </div>
+            <div class="advantages-souvenirs">
              <li class="advantages-item">
               <h4 class="advantages-title">Сувениры</h4>
               <p class="advantages-description">Не только китайского,
                 но и настоящего местного производства!</p>
              </li>
+            </div>
            </ul>
           </li>
           <li class="advantages-item">
@@ -105,6 +114,7 @@
             <p class="advantages-description">Большинство едет в Гранд Каньон и толпится там</p>
           </li>
         </ul>
+      </div>
       </section>
       <section class="booking">
         <h2 class="booking-header">Заинтересовались?</h2>
