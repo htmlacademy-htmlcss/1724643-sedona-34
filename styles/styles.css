@@ -150,7 +150,6 @@ body {
   background-image: url("../images/background.jpg");
   background-repeat: no-repeat;
   background-size: 100% auto;
-  height: 411px;
   width: 1200px;
   text-align: center;
 }
@@ -220,8 +219,7 @@ body {
   background-color: #756157;
   background-image: url("../images/filter-2.png");
   background-repeat: no-repeat;
-  background-size: 100% auto;
-  height: 403px;
+  background-size: 100% 100%;
   width: 1200px;
 }
 .catalog-list {
@@ -291,13 +289,35 @@ a.breadcrumbs-link {
   line-height: 21px;
   color: #333333;
 }
-.product-card-button-more a {
+.product-card-button-more {
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
   text-align: center;
   text-transform: uppercase;
   color: #FFFFFF;
+  background-color: #756157;
+  text-decoration: none;
+}
+.product-card-button-favorite {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+  background-color: #82B3D3;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.product-card-button-favorite-chosen {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+  background-color: #7DB54F;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
 }
 .product-card-rating {
   font-weight: 400;
@@ -307,13 +327,32 @@ a.breadcrumbs-link {
   text-transform: uppercase;
   color: #333333;
 }
-.pagination-link a{
+.product-card-rating-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #333333;
+  background-color: #F2F2F2;
+}
+.pagination-link {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background-color: #82B3D3;
+}
+.pagination-current {
   font-weight: 700;
   font-size: 20px;
   line-height: 36px;
   text-align: center;
   text-transform: uppercase;
   color: #000000;
+  background-color: #F2F2F2;
 }
 .pagination-title {
   font-weight: 400;
