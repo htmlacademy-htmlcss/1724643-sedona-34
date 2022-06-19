@@ -43,7 +43,8 @@
         </ul>
         </nav>
       </header>
-          <main class="main-inner">
+          <main class="main-container main-inner">
+            <div class="page-container">
             <div class="main-filter-catalog">
             <section class="main-filter">
                   <h1 class="inner-header">Гостиницы Седоны</h1>
@@ -120,6 +121,7 @@
               </section>
               </div>
               <section class="catalog-list">
+                <div class="filter-results-container">
                   <h3 class="catalog-list-header">Найдено гостиниц: 38</h3>
                   <select class="select-control" aria-label="Сортировка">
                       <option value="cheap">Сначала дешёвые</option>
@@ -135,57 +137,87 @@
                   <a href="#" class="button button-light-">
                     <span class="visiually-hidden">Показать список</span>
                 </a>
+              </div>
                 <ul class="product-list">
+                  <div class="product-list-one">
                     <li class="product-card">
                         <img class="product-card-image" src="images/hotel-1.jpg" width="300" height="211" alt="Звездное небо">
                         <h4 class="product-card-name">Amara Resort & Spa</h4>
+                        <div class="hotel-class">
                      <span class="product-card-type">Гостиница</span>
                      <span class="product-card-price">От 4000 ₽</span>
+                    </div>
+                    <div class="hotel-choose">
                      <a class="product-card-button-more" href="#">подробнее</a>
                      <a class="product-card-button-favorite" href="#">в избранное</a>
+                    </div>
+                    <div class="hotel-rating">
                      <img class="product-card-rating" src="images/star.svg" alt="Рейтинг 4 звезды">
                      <img class="product-card-rating" src="images/star.svg" alt="Рейтинг 4 звезды">
                      <img class="product-card-rating" src="images/star.svg" alt="Рейтинг 4 звезды">
                      <img class="product-card-rating" src="images/star.svg" alt="Рейтинг 4 звезды">
                      <span class="product-card-rating-text">Рейтинг: 8,5</span>
+                    </div>
                     </li>
                     <li class="product-card">
                            <img class="product-card-image" src="images/hotel-2.jpg" width="300" height="211" alt="Радуга над Седоной">
                            <h4 class="product-card-name">Villas at Poco Diablo</h4>
+                        <div class="hotel-class">
                         <span class="product-card-type">Гостиница</span>
                         <span class="product-card-price">От 5000 ₽</span>
+                        </div>
+                        <div class="hotel-choose">
                         <a class="product-card-button-more" href="#">подробнее</a>
                         <a class="product-card-button-favorite-chosen" href="#">в избранном</a>
+                        </div>
+                        <div class="hotel-rating">
                         <img class="product-card-rating" src="images/star.svg" alt="Рейтинг 4 звезды">
                         <img class="product-card-rating" src="images/star.svg" alt="Рейтинг 4 звезды">
                         <img class="product-card-rating" src="images/star.svg" alt="Рейтинг 4 звезды">
                         <img class="product-card-rating" src="images/star.svg" alt="Рейтинг 4 звезды">
                         <span class="product-card-rating-text">Рейтинг: 9,2</span>
+                        </div>
                        </li>
                        <li class="product-card">
                            <img class="product-card-image" src="images/hotel-3.jpg" width="300" height="211" alt="Седона на рассвете">
                            <h4 class="product-card-name">Desert Quail Inn</h4>
+                        <div class="hotel-class">
                         <span class="product-card-type">Гостиница</span>
                         <span class="product-card-price">От 2500 ₽</span>
+                        </div>
+                        <div class="hotel-choose">
                         <a class="product-card-button-more" href="#">подробнее</a>
                         <a class="product-card-button-favorite" href="#">в избранное</a>
+                        </div>
+                        <div class="hotel-rating">
                         <img class="product-card-rating" src="images/star.svg" alt="Рейтинг 3 звезды">
                         <img class="product-card-rating" src="images/star.svg" alt="Рейтинг 3 звезды">
                         <img class="product-card-rating" src="images/star.svg" alt="Рейтинг 3 звезды">
                         <span class="product-card-rating-text">Рейтинг: 6,9</span>
+                        </div>
                        </li>
+                      </div>
+                      <div class="product-list-two">
                        <li class="product-card">
                            <img class="product-card-image" src="images/hotel-4.jpg" width="300" height="211" alt="Седона на закате">
                            <h4 class="product-card-name">GreenTree Inn</h4>
+                        <div class="hotel-class">
                         <span class="product-card-type">Гостиница</span>
                         <span class="product-card-price">От 1500 ₽</span>
+                        </div>
+                        <div class="hotel-choose">
                         <a class="product-card-button-more" href="#">подробнее</a>
                         <a class="product-card-button-favorite" href="#">в избранное</a>
+                        </div>
+                        <div class="hotel-rating">
                         <img class="product-card-rating" src="images/star.svg" alt="Рейтинг 2 звезды">
                         <img class="product-card-rating" src="images/star.svg" alt="Рейтинг 2 звезды">
                         <span class="product-card-rating-text">Рейтинг: 5,0</span>
+                        </div>
                        </li>
+                      </div>
                 </ul>
+                <div class="pagination-all">
                 <ul class="pagination">
                     <li class="pagination-item">
                         <a class="pagination-link pagination-current">1</a>
@@ -214,7 +246,9 @@
                     <option selected value="popular">4</option>
                 </select>
                 </div>
+              </div>
               </section>
+            </div>
           </main>
           <footer class="page-footer-catalog">
             <section class="subscription">
@@ -229,7 +263,8 @@
               </form>
             </section>
             <section class="contacts">
-              <h2 class="visiually-hidden">Наши контакты</h2>
+              <div class="contacts-information">
+              <h2 class="visiually-hidden" hidden>Наши контакты</h2>
               <ul class="contacts-list">
                 <li class="contacts-item">
                   <a class="contacts-button" href="https://vk.com/htmlacademy">
@@ -253,6 +288,7 @@
               <a class="htmlacademy-link" href="https://htmlacademy.ru/">
                 <img class="htmlacademy-logo" alt="Логотип htmlacademy" src="images/HTMLAcademy.png">
               </a>
+            </div>
             </section>
           </footer>
     </body>
